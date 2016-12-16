@@ -1,0 +1,3 @@
+bin/mandelbrot_gpu
+*.exe
+*.o

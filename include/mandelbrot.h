@@ -1,4 +1,4 @@
-#include "math/complex.h"
+#include "complex.h"
 #include "image.h"
 
 void set_iterations(int it);

@@ -75,7 +75,7 @@ void save_image() {
         SDL_SaveBMP(surf, "mandelbrot.bmp");
         SDL_FreeSurface(surf);
     } else {
-        fprintf(stderr, SDL_GetError());
+        fprintf(stderr, "%s", SDL_GetError());
     }
     free_image(&img);
 }
